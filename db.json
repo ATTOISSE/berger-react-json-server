@@ -1,0 +1,104 @@
+{
+  "burgers": [
+    {
+      "id": "1",
+      "price": 19.99,
+      "name": "Cheese berger",
+      "picture": "images/berger6.jpg",
+      "description": "berger avec cheese"
+    },
+    {
+      "id": "2",
+      "price": 599.95,
+      "name": "Berger simple",
+      "picture": "images/berger2.jpg",
+      "description": "berger au fromage"
+    },
+    {
+      "id": "3",
+      "price": 15.9,
+      "name": "berger complet",
+      "picture": "images/berger3.jpg",
+      "description": "salade poulet "
+    },
+    {
+      "id": "4",
+      "price": 799.95,
+      "name": "berger Fruit",
+      "picture": "images/berger5.jpg",
+      "description": " fruit mayonaise "
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "orders": [
+        {
+          "id": "2",
+          "price": 599.95,
+          "name": "Iphone",
+          "picture": "images/berger2.jpg",
+          "description": "Iphone 14 Pro max"
+        },
+        {
+          "id": "3",
+          "price": 15.9,
+          "name": "Montre",
+          "picture": "images/berger3.jpg",
+          "description": "Montre watch"
+        }
+      ],
+      "client": {
+        "id": 1,
+        "name": "cheese berger",
+        "lastName": "García Flores",
+        "telephone": "5553428400"
+      },
+      "etat": true
+    }
+  ],
+  "clients": [
+    {
+      "id": "1",
+      "name": "Mohamed",
+      "lastName": "Ibrahim",
+      "telephone": "5553428400"
+    },
+    {
+      "id": "1",
+      "name": "Hamane",
+      "lastName": "Adji",
+      "telephone": "+221785943756"
+    },
+    {
+      "id": "1",
+      "name": "Monitor",
+      "lastName": "Angus",
+      "telephone": "5553428400"
+    },
+    {
+      "id": "1",
+      "name": "ATTOISSE ",
+      "lastName": "Angus",
+      "telephone": "5553428400"
+    },
+    {
+      "id": "1",
+      "name": "dezdze",
+      "lastName": "García Flores",
+      "telephone": "5553428400"
+    },
+    {
+      "id": 1,
+      "name": "cheese berger",
+      "lastName": "García Flores",
+      "telephone": "5553428400"
+    }
+  ],
+  "stats": {
+    "annule": 2,
+    "enCours": 2,
+    "valide": 3,
+    "paye": 2
+  }
+}
